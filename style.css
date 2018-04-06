@@ -48,14 +48,43 @@ nav span{
 .logo{
   padding-left: 10px;
   color: MediumAquamarine;
-  flex-grow: 2;
+  /* flex-grow: 1; */
   /* display: inline-block; */
   width: 200px;
 }
 
-
-
-.parent-container{
+.container{
   display:flex;
-  top: 100px;
+  border-color: black;
+  padding-top: 90px;
+  align-items: stretch;
+  margin-left: 50px;
+}
+
+.column1{
+  width: 630px;
+  padding-top: 30px;
+}
+.column2{
+  width: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.column3{
+  width: 240px;
+}
+.column1, .column2, .column3{
+    border: 1px solid black;
+}
+
+.image-content, .lead-story, .story{
+  border: 1px solid black;
+}
+
+.lead-story{
+  display: flex;
+}
+
+.image-content{
+  display:flex;
 }

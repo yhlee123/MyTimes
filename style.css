@@ -55,10 +55,11 @@ nav span{
 
 .container{
   display:flex;
-  border-color: black;
-  padding-top: 90px;
+  border: 1px solid black;
+  padding-top: 120px;
   align-items: stretch;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 .column1{
@@ -73,7 +74,7 @@ nav span{
 .column3{
   width: 240px;
 }
-.column1, .column2, .column3{
+.column{
     border: 1px solid black;
 }
 
@@ -87,4 +88,8 @@ nav span{
 
 .image-content{
   display:flex;
+}
+
+.story img{
+  border: 1px solid black;
 }

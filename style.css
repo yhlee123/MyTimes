@@ -60,6 +60,7 @@ nav span{
   align-items: stretch;
   margin-left: 50px;
   margin-right: 50px;
+  width: 1232px;
 }
 
 .column1{
@@ -75,7 +76,9 @@ nav span{
   width: 240px;
 }
 .column{
-    border: 1px solid black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .image-content, .lead-story, .story{
@@ -84,12 +87,36 @@ nav span{
 
 .lead-story{
   display: flex;
+  flex-direction: column;
 }
 
 .image-content{
-  display:flex;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.lead-story .image-content p{
+  flex-direction: column;
 }
 
 .story img{
   border: 1px solid black;
+  flex-direction: column;
+}
+
+.lead-story .image-content{
+  background-image: url("./resources/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+}
+
+.fall-cancelled .image-content{
+  background-image: url("./resources/img-story-1.png");
 }

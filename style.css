@@ -118,5 +118,13 @@ nav span{
 }
 
 .fall-cancelled .image-content{
+  background-image: url("./resources/img-story-2.png");
+}
+
+.pop-culture .image-content{
+  background-image: url("./resources/img-story-3.png");
+}
+
+.cat-story .image-content{
   background-image: url("./resources/img-story-1.png");
 }
